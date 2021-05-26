@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache nginx nginx-mod-mail openssl
+RUN apk add --no-cache nginx nginx-mod-stream nginx-mod-mail openssl
 
 STOPSIGNAL SIGTERM
 
